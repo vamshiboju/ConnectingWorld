@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 import LocationSvg from "../media/LocationSvg.svg";
 import Loading from "./loading";
 
-const ENDPOINT = "http://localhost:4000";
+const ENDPOINT = "https://connectingworld-backend.onrender.com";
 
 
 const SignupBox = (props) => {
