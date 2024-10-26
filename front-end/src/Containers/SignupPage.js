@@ -8,7 +8,6 @@ import LocateUser from "../components/locateUser";
 
 const ENDPOINT = "https://connectingworld-backend.onrender.com";
 
-
 const SignupPage = () => {
   const [mapDisplay, setMapDisplay] = useState(false);
   const [latitude, setLatitude] = useState(null);
