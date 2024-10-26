@@ -20,7 +20,7 @@ const SignupPage = () => {
   const authenticate = async () => {
     let isAuthenticated = false;
 
-    await fetch(ENDPOINT + "/authenticate", {
+    await fetch("https://connectingworld-backend.onrender.com/authenticate", {
       method: "get",
       headers: { "Content-Type": "application/json" },
       credentials: "include",
