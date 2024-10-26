@@ -1,0 +1,133 @@
+.RequestListBoxMainDiv {
+  width: 450px;
+  position: absolute;
+  right: 120px;
+  top: 55px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgb(0 0 0 / 10%) 0px 0px 0px 0px, rgb(0 0 0 / 10%) 0px 4px 11px;
+  z-index: 10;
+  max-height: 300px;
+  border-radius: 6px;
+  overflow: auto;
+}
+
+.RLLoadingDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+}
+
+.Open {
+  display: flex;
+  flex-direction: column;
+}
+
+.Close {
+  display: none;
+}
+
+.RLRequestDiv {
+  padding: 20px 10px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgba(202, 202, 202, 0.59);
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.RLEmail {
+  font-size: 12px;
+}
+
+.RLButtonsDiv button {
+  border-radius: 6px;
+  padding: 5px 10px;
+  border: none;
+  color: white;
+  font-weight: 500;
+  box-shadow: 0px 0px 2px black;
+  cursor: pointer;
+}
+.RLRejectButton {
+  margin-right: 10px;
+  background-color: black;
+}
+.RLAcceptButton {
+  margin-left: 10px;
+  background-color: rgba(103, 83, 253, 1);
+}
+
+/* --------------Mobile-------------- */
+
+.RLMobOuterDiv {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  backdrop-filter: blur(1.5px);
+  z-index: 10000;
+}
+
+.RLHeadingDiv {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 60px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.RLMobHeading {
+  width: 420px;
+  text-align: center;
+}
+
+.RLMobCloseButton {
+  font-size: 25px;
+}
+
+.RequestListBoxMobMainDiv {
+  width: 450px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgb(0 0 0 / 10%) 0px 0px 0px 0px, rgb(0 0 0 / 10%) 0px 4px 11px;
+  max-height: 300px;
+  border-radius: 6px;
+  overflow: auto;
+}
+
+@media screen and (max-width: 540px) {
+  .RequestListBoxMobMainDiv {
+    width: 400px;
+    font-size: 13px;
+  }
+
+  .RLMobHeading {
+    width: 370px;
+  }
+
+  .RLHeadingDiv {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .RequestListBoxMobMainDiv {
+    width: 290px;
+    font-size: 13px;
+  }
+
+  .RLMobHeading {
+    width: 260px;
+  }
+
+  .RLHeadingDiv {
+    font-size: 18px;
+  }
+}

@@ -1,0 +1,72 @@
+[
+  {
+    "email": "vamshi@gmail.com",
+    "name": "Vamshi Krishna",
+    "longitude": "8.6875",
+    "latitude": "54.2501",
+    "occupation": "student"
+  },
+  {
+    "email": "varun@gmail.com",
+    "name": "Varun",
+    "longitude": "1.02",
+    "latitude": "1.05",
+    "occupation": "student"
+  },
+  {
+    "email": "venkanna@gmail.com",
+    "name": "Venkanna",
+    "longitude": "1.02",
+    "latitude": "1.05",
+    "occupation": "student"
+  },
+  {
+    "email": "virat@gmail.com",
+    "name": "Virat Kohli",
+    "longitude": "77.1025",
+    "latitude": "28.7041",
+    "occupation": "cricketer"
+  },
+  {
+    "email": "pranesh@gmail.com",
+    "name": "Pranesh",
+    "longitude": "78.4867",
+    "latitude": "17.385",
+    "occupation": "student"
+  },
+  {
+    "email": "mahesh@gmail.com",
+    "name": "Mahesh",
+    "longitude": "13.4149",
+    "latitude": "46.8265",
+    "occupation": "Actor"
+  },
+  {
+    "email": "tarak@gmail.com",
+    "name": "NTR",
+    "longitude": "17.2283",
+    "latitude": "26.3351",
+    "occupation": "Actor"
+  },
+  {
+    "email": "rohit@gmail.com",
+    "name": "rohith",
+    "longitude": "103.8198",
+    "latitude": "1.3521",
+    "occupation": "Actor"
+  },
+  {
+    "email": "pawan@gmail.com",
+    "name": "Pawan Kalyan",
+    "longitude": "1.atitude", 
+    "latitude":"1.05",
+    "occupation": "Actor"
+  },
+  {
+    "email": "charan@gmail.com",
+    "name": "Ram Charan",
+    "longitude": "3.7492",
+    "latitude": "40.4637",
+    "occupation": "Actor"
+  }
+]
