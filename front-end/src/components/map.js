@@ -27,7 +27,7 @@ import "../stylesheets/map.css";
 //   },
 // ];
 
-const ENDPOINT = "http://localhost:4000";
+const ENDPOINT = "https://connectingworld-backend.onrender.com";
 
 
 let INITIAL_VIEW_STATE = {
