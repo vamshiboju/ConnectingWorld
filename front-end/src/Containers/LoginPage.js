@@ -5,7 +5,7 @@ import LoginPageImg from "../media/LoginPageImg.svg";
 import { useNavigate } from "react-router-dom";
 import "../stylesheets/LoginPage.css";
 
-const ENDPOINT = "http://localhost:4000";
+const ENDPOINT = "https://connectingworld-backend.onrender.com";
 
 
 const LoginPage = () => {
