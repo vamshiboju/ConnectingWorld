@@ -4,7 +4,7 @@ import Map from "../components/map";
 import { useNavigate } from "react-router-dom";
 import "../stylesheets/UserPage.css";
 
-const ENDPOINT = "http://localhost:4000";
+const ENDPOINT = "https://connectingworld-backend.onrender.com";
 
 
 const UserPage = () => {
