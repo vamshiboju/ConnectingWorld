@@ -31,7 +31,7 @@ const SignupBox = (props) => {
 
     setLoadingDisplay(true);
 
-    await fetch(ENDPOINT + "/signup", {
+    await fetch("https://connectingworld-backend.onrender.com/signup", {
       method: "post",
       headers: { "Content-Type": "application/json" },
       credentials: "include",
