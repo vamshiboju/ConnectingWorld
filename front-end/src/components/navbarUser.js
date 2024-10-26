@@ -9,7 +9,7 @@ import MapStats from "./mapStats";
 import { Link } from "react-router-dom";
 import "../stylesheets/navbarUser.css";
 
-const ENDPOINT = "http://localhost:4000";
+const ENDPOINT = "https://connectingworld-backend.onrender.com";
 
 
 class NavbarUser extends React.Component {
