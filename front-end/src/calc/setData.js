@@ -3,7 +3,7 @@ let requestList = [];
 let friendsList = [];
 let userEmail = null;
 
-const ENDPOINT = "http://localhost:4000"
+const ENDPOINT = "https://connectingworld-backend.onrender.com";
 
 const setData = async () => {
   await fetch(ENDPOINT + "/usertable", {
