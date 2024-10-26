@@ -6,7 +6,7 @@ import { useNavigate } from "react-router-dom";
 import "../stylesheets/SignupPage.css";
 import LocateUser from "../components/locateUser";
 
-const ENDPOINT = "http://localhost:4000";
+const ENDPOINT = "https://connectingworld-backend.onrender.com";
 
 
 const SignupPage = () => {
