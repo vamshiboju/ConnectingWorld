@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import Loading from "./loading";
 import "../stylesheets/loginBox.css";
 
-const ENDPOINT = "http://localhost:4000";
+const ENDPOINT = "https://connectingworld-backend.onrender.com";
 
 const LoginBox = () => {
   const [error, setError] = useState("");
