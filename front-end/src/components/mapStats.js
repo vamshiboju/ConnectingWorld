@@ -5,7 +5,7 @@ import PNYlist from "../calc/PNYfunc";
 import GITlist from "../calc/GITfunc";
 import "../stylesheets/mapStats.css";
 
-const ENDPOINT = "http://localhost:4000";
+const ENDPOINT = "https://connectingworld-backend.onrender.com";
 
 class MapStats extends React.Component {
   state = {
