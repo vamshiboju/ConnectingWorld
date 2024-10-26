@@ -2,7 +2,7 @@ import React from "react";
 import setData from "../calc/setData";
 import "../stylesheets/searchBox.css";
 
-const ENDPOINT = "http://localhost:4000";
+const ENDPOINT = "https://connectingworld-backend.onrender.com";
 
 class SearchBox extends React.Component {
   state = {
