@@ -2,7 +2,7 @@ import React from "react";
 import "../stylesheets/requestListBox.css";
 import Loading from "./loading";
 
-const ENDPOINT = "http://localhost:4000";
+const ENDPOINT = "https://connectingworld-backend.onrender.com";
 
 class RequestListBox extends React.Component {
   state = {
