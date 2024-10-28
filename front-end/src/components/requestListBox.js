@@ -11,7 +11,7 @@ class RequestListBox extends React.Component {
   };
 
   handleAccept = async (reqEmail) => {
-    await fetch("http://localhost:4000/accept-request", {
+    await fetch("https://connectingworld.onrender.com/accept-request", {
       method: "post",
       headers: { "Content-Type": "application/json" },
       credentials: "include",
@@ -30,7 +30,7 @@ class RequestListBox extends React.Component {
   };
 
   handleReject = async (reqEmail) => {
-    await fetch("http://localhost:4000/reject-request", {
+    await fetch("https://connectingworld.onrender.com/reject-request", {
       method: "post",
       headers: { "Content-Type": "application/json" },
       credentials: "include",
