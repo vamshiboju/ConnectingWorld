@@ -41,7 +41,7 @@ class MapStats extends React.Component {
   userTable = [];
   nodes = [];
   getEmailNNodesNUserTable = async () => {
-    await fetch("http://localhost:4000/friends-list", {
+    await fetch("https://connectingworld.onrender.com/friends-list", {
       method: "get",
       headers: { "Content-Type": "application/json" },
       credentials: "include",
@@ -50,7 +50,7 @@ class MapStats extends React.Component {
       .then(async (responseJson) => {
         this.nodes = responseJson.nodes;
         this.userEmail = responseJson.userEmail;
-        await fetch("http://localhost:4000/usertable", {
+        await fetch("https://connectingworld.onrender.com/usertable", {
           method: "get",
           headers: { "Content-Type": "application/json" },
           credentials: "include",
