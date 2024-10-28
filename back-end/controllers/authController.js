@@ -57,7 +57,7 @@ singup_post = async (req, res) => {
     res.cookie("jwt", token, {
       maxAge: 1 * 24 * 60 * 60 * 1000,
       httpOnly: true,
-      domain: "connectingworld-front-end.onrender.com",
+      domain: "https://connectingworld.onrender.com",
       //domain: "localhost",
       secure: true,
       sameSite: "none",
@@ -77,7 +77,7 @@ login_post = async (req, res) => {
     res.cookie("jwt", token, {
       maxAge: 1 * 24 * 60 * 60 * 1000,
       httpOnly: true,
-      domain: "connectingworld-front-end.onrender.com",
+      domain: "https://connectingworld.onrender.com",
       //domain: "localhost",
       secure: true,
       sameSite: "none",
@@ -91,7 +91,7 @@ login_post = async (req, res) => {
 logout_get = (req, res) => {
   res.cookie("jwt", "", {
     maxAge: 1,
-    domain: "connectingworld-front-end.onrender.com",
+    domain: "https://connectingworld.onrender.com",
     //domain: "localhost",
     secure: true,
     sameSite: "none",
