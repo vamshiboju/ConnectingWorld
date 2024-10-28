@@ -15,7 +15,7 @@ const LoginBox = () => {
 
     setLoadingDisplay(true);
 
-    await fetch("http://localhost:4000/login", {
+    await fetch("https://connectingworld.onrender.com/login", {
       method: "post",
       headers: { "Content-Type": "application/json" },
       credentials: "include",
