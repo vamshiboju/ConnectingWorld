@@ -27,7 +27,7 @@ class NavbarUser extends React.Component {
 
   getList = async () => {
     let data = [];
-    await fetch("http://localhost:4000/user-request-list", {
+    await fetch("https://connectingworld.onrender.com/user-request-list", {
       method: "get",
       headers: { "Content-Type": "application/json" },
       credentials: "include",
@@ -72,7 +72,7 @@ class NavbarUser extends React.Component {
     newState.logoutLoadingDisplay = true;
     this.setState(newState);
 
-    await fetch("http://localhost:4000/logout", {
+    await fetch("https://connectingworld.onrender.com/logout", {
       method: "get",
       headers: { "Content-Type": "application/json" },
       credentials: "include",
