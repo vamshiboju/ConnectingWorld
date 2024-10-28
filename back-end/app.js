@@ -18,12 +18,12 @@ dotenv.config();
 app.use(express.json());
 app.use(cookieParser());
 app.use(function (req, res, next) {
-  //  res.setHeader(
-  //    "Access-Control-Allow-Origin",
-  //    "https://connectingworld.onrender.com"
-  // );
+   res.setHeader(
+     "Access-Control-Allow-Origin",
+     "https://connectingworld-front-end.onrender.com"
+  );
   //test
-  res.setHeader("Access-Control-Allow-Origin", "http://localhost:3000");
+  //res.setHeader("Access-Control-Allow-Origin", "http://localhost:3000");
 
   // Request methods you wish to allow
   res.setHeader(
