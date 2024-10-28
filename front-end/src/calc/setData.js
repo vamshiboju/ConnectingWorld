@@ -4,7 +4,7 @@ let friendsList = [];
 let userEmail = null;
 
 const setData = async () => {
-  await fetch("http://localhost:4000/usertable", {
+  await fetch("https://connectingworld.onrender.com/usertable", {
     method: "get",
     headers: { "Content-Type": "application/json" },
     credentials: "include",
@@ -17,7 +17,7 @@ const setData = async () => {
       console.log(error);
     });
 
-  await fetch("http://localhost:4000/requests-list", {
+  await fetch("https://connectingworld.onrender.com/requests-list", {
     method: "get",
     headers: { "Content-Type": "application/json" },
     credentials: "include",
@@ -30,7 +30,7 @@ const setData = async () => {
       console.log(error);
     });
 
-  await fetch("http://localhost:4000/friends-list", {
+  await fetch("https://connectingworld.onrender.com/friends-list", {
     method: "get",
     headers: { "Content-Type": "application/json" },
     credentials: "include",
