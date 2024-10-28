@@ -1,0 +1,85 @@
+.SPBody {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 90px;
+  margin-top: 57px;
+  height: calc(100% - 57px);
+}
+
+.SPImg {
+  height: 370px;
+  padding-left: 60px;
+}
+
+@media screen and (max-width: 1920px) {
+  .SPImg {
+    height: 550px;
+    padding-left: 100px;
+  }
+}
+
+@media screen and (max-width: 1680px) {
+  .SPImg {
+    height: 450px;
+    padding-left: 80px;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .SPImg {
+    height: 400px;
+    padding-left: 60px;
+  }
+}
+
+@media screen and (max-width: 1366px) {
+  .SPImg {
+    height: 370px;
+    padding-left: 40px;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .SPImg {
+    display: none;
+  }
+
+  .SPMapBox {
+    display: none;
+  }
+
+  .SPBody {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 57px - 85px);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .SPBody {
+    height: calc(100vh - 57px - 70px);
+  }
+
+  .SPMapBox {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .SPBody {
+    height: calc(100vh - 57px - 80px);
+  }
+  .SPMapBox {
+    display: block;
+    transform: translateY(-10000px);
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .SPBody {
+    height: calc(100vh - 57px - 90px);
+  }
+}

@@ -1,0 +1,233 @@
+.SBsignupBox {
+  border-radius: 8px;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  margin-right: 30px;
+  padding-bottom: 10px;
+}
+.SBHeadDiv {
+  padding: 10px 150px;
+  font-size: 34px;
+  font-weight: bold;
+  border-bottom: 1px solid black;
+}
+
+.SBPrivacyPolicy {
+  width: 310px;
+  font-size: 10px;
+  margin: 5px 0px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.PrivacyPolicyLink {
+  color: rgba(103, 83, 253, 1);
+}
+
+.SBBodyDiv {
+  padding: 20px 0px;
+  font-size: 14px;
+  font-weight: 400;
+}
+.SBErrorDiv p {
+  color: red;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+.SBPassword {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.SBInputpassword {
+  width: 130px;
+  border-color: rgba(103, 83, 253, 0.53);
+  border-width: 1px;
+  border-radius: 6px;
+  padding: 4px 8px;
+  margin: 8px 0px;
+}
+.SBInput {
+  border-width: 1px;
+  border-radius: 6px;
+  padding: 4px 8px;
+  width: 300px;
+  border-color: rgba(103, 83, 253, 0.53);
+  margin: 8px 0px;
+}
+.SBSignupButtonDiv {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 2px;
+}
+.SBSignupButton {
+  width: 180px;
+  padding: 12px 0px;
+  font-size: 16px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgba(103, 83, 253, 1);
+  color: white;
+  font-weight: 500;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.SBLocationLabel {
+  color: rgba(103, 83, 253, 1);
+  font-weight: 600;
+  font-size: 17px;
+}
+.SBLocationImg {
+  width: 25px;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+.SBLocationDiv {
+  margin-top: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 130px;
+  justify-content: space-between;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+@media screen and (max-width: 1920px) {
+  .SBsignupBox {
+    margin-right: 100px;
+  }
+}
+@media screen and (max-height: 850px) {
+  .SBHeadDiv {
+    padding: 5px 150px;
+  }
+  .SBBodyDiv {
+    padding: 10px 0px;
+  }
+  .SBsignupBox {
+    margin-top: 15px;
+  }
+  .SBSignupButton {
+    padding: 10px 0px;
+  }
+}
+
+@media screen and (max-width: 1680px) {
+  .SBsignupBox {
+    margin-right: 100px;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .SBsignupBox {
+    margin-right: 40px;
+  }
+}
+
+@media screen and (max-width: 1366px) {
+  .SBsignupBox {
+    margin-right: 30px;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .SBsignupBox {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .SBHeadDiv {
+    padding: 10px 100px;
+    font-size: 34px;
+    text-align: center;
+    width: 200px;
+  }
+  .SBPrivacyPolicy {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .SBHeadDiv {
+    padding: 10px 70px;
+    font-size: 28px;
+    text-align: center;
+    width: 200px;
+  }
+
+  .SBPrivacyPolicy {
+    width: 280px;
+  }
+
+  .SBInputpassword {
+    width: 110px;
+    padding: 6px 4px;
+    margin: 8px 0px;
+  }
+
+  .SBInput {
+    padding: 6px 4px;
+    width: 250px;
+    margin: 8px 0px;
+  }
+
+  .SBSignupButton {
+    margin-top: 18px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .SBHeadDiv {
+    padding: 10px 40px;
+    font-size: 25px;
+    text-align: center;
+    width: 200px;
+  }
+
+  .SBInputpassword {
+    width: 80px;
+    padding: 6px 4px;
+    margin: 8px 0px;
+  }
+
+  .SBPrivacyPolicy {
+    width: 250px;
+  }
+
+  .SBPrivacyPolicy a {
+    font-size: 10px;
+  }
+
+  .SBInput {
+    padding: 6px 4px;
+    width: 220px;
+    font-size: 12px;
+    margin: 8px 0px;
+  }
+
+  .SBBodyDiv {
+    font-size: 13px;
+  }
+
+  .SBSignupButton {
+    margin-top: 18px;
+    font-size: 13px;
+    width: 150px;
+  }
+}
