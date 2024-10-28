@@ -10,7 +10,7 @@ const UserPage = () => {
   const authenticate = async () => {
     let isAuthenticated = false;
 
-    await fetch("http://localhost:4000/authenticate", {
+    await fetch("https://connectingworld.onrender.com/authenticate", {
       method: "get",
       headers: { "Content-Type": "application/json" },
       credentials: "include",
