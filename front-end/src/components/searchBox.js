@@ -20,7 +20,7 @@ class SearchBox extends React.Component {
   // -1 - not friend
 
   addFriendHandle = async (reqEmail) => {
-    await fetch("http://localhost:4000/add-friend", {
+    await fetch("https://connectingworld.onrender.com/add-friend", {
       method: "post",
       headers: { "Content-Type": "application/json" },
       credentials: "include",
