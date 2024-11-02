@@ -5,7 +5,6 @@ Connecting World is a full-stack web application designed to map social connecti
 ## Table of Contents
 - [Features](#features)
 - [Technologies Used](#technologies-used)
-- [Project Structure](#project-structure)
 - [Getting Started](#getting-started)
 - [Usage](#usage)
 - [Contributing](#contributing)
@@ -24,16 +23,19 @@ Connecting World is a full-stack web application designed to map social connecti
 - **Database**: MongoDB
 - **Other Libraries**: D3.js (for graph visualization), JWT for authentication, bcrypt for password hashing
 
-## Project Structure
-```plaintext
-Connecting-World/
-├── client/               # Frontend code
-│   ├── src/
-│   ├── public/
-│   └── ...
-├── server/               # Backend code
-│   ├── controllers/
-│   ├── models/
-│   ├── routes/
-│   └── ...
-└── README.md
+## Getting Started
+
+### Clone the repository:
+```bash
+git clone https://github.com/your-username/connecting-world.git
+cd connecting-world
+
+## Install dependencies:
+
+#### Install backend dependencies:
+```bash
+cd server
+npm install
+
+
+
