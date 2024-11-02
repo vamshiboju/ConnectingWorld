@@ -25,7 +25,7 @@ Connecting World is a full-stack web application designed to map social connecti
 - **Frontend**: React, JavaScript, HTML, CSS
 - **Backend**: Node.js, Express.js
 - **Database**: MongoDB
-- **Other Libraries**: D3.js (for graph visualization), JWT for authentication, bcrypt for password hashing
+- **Other Libraries**: JWT for authentication, bcrypt for password hashing
 
 ## Functionality 
 
@@ -39,7 +39,6 @@ The Connecting World application includes a variety of features to enhance user 
 ### 2. Social Graph Visualization
    - **Dynamic Graphs**: Visualizes each user as a node and their relationships as edges in a social graph.
    - **Interactive Network**: Enables users to zoom, drag, and interact with the graph to explore connections more intuitively.
-   - **D3.js Integration**: Utilizes D3.js for robust graph data structures and smooth animations.
 
 ### 3. Relationship Mapping
    - **Connection Creation**: Users can add friends or create connections with other registered users.
@@ -79,20 +78,19 @@ With these functionalities, *Connecting World* offers users a comprehensive plat
 
 ### Clone the repository:
 ```bash
-git clone https://github.com/your-username/connecting-world.git
-cd connecting-world
+git clone https://github.com/vamshiBoju/ConnectingWorld.git
 ```
 
 ## Install dependencies:
 
 ### Install backend dependencies:
 ```bash
-cd server
+cd back-end
 npm install
 ```
 ### Install frontend dependencies:
 ```bash
-cd ../client
+cd ../front-end
 npm install
 ```
 ## Environment Variables:
@@ -105,13 +103,13 @@ JWT_SECRET=<your-jwt-secret-key>
 
 ### Start the backend server:
 ```bash
-cd ../server
+cd ../back-end
 npm start
 ```
 
 ### Start the Frontend server:
 ```bash
-cd ../client
+cd ../front-end
 npm start
 ```
 ## Open the application:
