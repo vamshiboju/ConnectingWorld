@@ -8,7 +8,7 @@ Connecting World is a full-stack web application designed to map social connecti
 ## Table of Contents
 - [Features](#features)
 - [Technologies Used](#technologies-used)
-- [Functionality](#Functionality)
+- [Functionality](#functionality)
 - [Getting Started](#getting-started)
 
 
