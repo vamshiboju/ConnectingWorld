@@ -1,17 +1,15 @@
-# MovieZone
+# Connecting World
 
-## Search for Movies and TV Shows. Bookmark and Rate your favorite shows. Watch exciting trailers
+## Explore Social Connections, Visualize Relationships, and Manage Your Profile
+# 🌐 Live @ https://connectingworld-fe.onrender.com/
 
-# 🌐 Live @ https://movie.okereke.dev/
-
-## Copyright (c) 2021 Okereke Chinweotito
 
 ## The code and media present in this repository remains an intellectual property of Okereke Chinweotito and therefore cannot be copied, modified, redistributed, sublicenced or used as a template without due permission from the author
 
 ## Introduction
 
-MovieZone is an web application that allows the user to browse for movies , tv shows and actor profiles. They can also login and rate media or save it to their profile.
-This was made possible with React JS and the MovieDB API.
+Connecting World is a full-stack web application designed to map social connections using graph data structures, where each node represents a user and each edge represents a relationship. The platform allows users to visualize and interact with their social networks in real time, making connections more dynamic and engaging.
+
 
 ## Getting Started 💻
 
@@ -55,7 +53,7 @@ Go to localhost:3000 to see the web application.
 
 ## Deployment 🌍
 
-MovieZone is deployed using [Netlify](https://www.netlify.com/).
+MovieZone is deployed using [Render](https://render.com/).
 
 ## Built With 🔨
 
@@ -64,8 +62,4 @@ MovieZone is deployed using [Netlify](https://www.netlify.com/).
 - [SWR](https://swr.vercel.app/) - responsible for data fetching with [Axios](https://github.com/axios/axios)
 - [Styled Components](https://styled-components.com/) - responsible for design and styling the web application
 - [Framer Motion](https://www.framer.com/api) - Used in the animations
-- [MovieDB](https://www.themoviedb.org/) - the API used for the project
 
-## License 📇
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
