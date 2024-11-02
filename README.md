@@ -1,77 +1,71 @@
+# MovieZone
 
+## Search for Movies and TV Shows. Bookmark and Rate your favorite shows. Watch exciting trailers
 
-# Getting Started with Create React App
+# 🌐 Live @ https://movie.okereke.dev/
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Copyright (c) 2021 Okereke Chinweotito
 
-## Available Scripts
+## The code and media present in this repository remains an intellectual property of Okereke Chinweotito and therefore cannot be copied, modified, redistributed, sublicenced or used as a template without due permission from the author
 
-In the project directory, you can run:
+## Introduction
 
-### `npm start`
+MovieZone is an web application that allows the user to browse for movies , tv shows and actor profiles. They can also login and rate media or save it to their profile.
+This was made possible with React JS and the MovieDB API.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Getting Started 💻
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Clone the Repo in your machine and install all the dependencies.
 
-### `npm test`
+### Prerequisites 🔍
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Make sure that you have NodeJS in your machine. If not, go to [nodejs.org](https://nodejs.org) and install npm. Then check for your version using the command line.
 
-### `npm run build`
+```
+   node -v
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Installing 📕
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+After cloning the repo, open the folder with you current code editor and install all the dependencies.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+    npm install
+```
 
-### `npm run eject`
+After all the dependencies get installed, you need to create an .env file at the root of the project and paste the following:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+> THIS IS THE IMPORTANT BIT! You need to get your own api key from the movieDb website to run the application.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- You need to register an account and get an API key.
+- After getting your API Key, paste the api key in the .env file.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```
+REACT_APP_KEY = GET YOUR KEY AT THE MOVIEDB WEBSITE
+REACT_APP_API = https://api.themoviedb.org/3/
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+With the .env file created with an API key. Just run the npm command to start the application.
 
-## Learn More
+```
+    npm run start
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Go to localhost:3000 to see the web application.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Deployment 🌍
 
-### Code Splitting
+MovieZone is deployed using [Netlify](https://www.netlify.com/).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Built With 🔨
 
-### Analyzing the Bundle Size
+- [ReactJS](https://reactjs.org) - The web framework used
+- [Context API](https://reactjs.org) - responsible for global state management
+- [SWR](https://swr.vercel.app/) - responsible for data fetching with [Axios](https://github.com/axios/axios)
+- [Styled Components](https://styled-components.com/) - responsible for design and styling the web application
+- [Framer Motion](https://www.framer.com/api) - Used in the animations
+- [MovieDB](https://www.themoviedb.org/) - the API used for the project
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## License 📇
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
-
-
-
-
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
