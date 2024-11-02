@@ -8,10 +8,9 @@ Connecting World is a full-stack web application designed to map social connecti
 ## Table of Contents
 - [Features](#features)
 - [Technologies Used](#technologies-used)
+- [Functionality](#functionality)
 - [Getting Started](#getting-started)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+
 
 ## Features
 - **User Management**: Sign up, login, and manage user profiles.
@@ -25,48 +24,6 @@ Connecting World is a full-stack web application designed to map social connecti
 - **Backend**: Node.js, Express.js
 - **Database**: MongoDB
 - **Other Libraries**: D3.js (for graph visualization), JWT for authentication, bcrypt for password hashing
-
-## Getting Started
-
-### Clone the repository:
-```bash
-git clone https://github.com/your-username/connecting-world.git
-cd connecting-world
-```
-
-## Install dependencies:
-
-### Install backend dependencies:
-```bash
-cd server
-npm install
-```
-### Install frontend dependencies:
-```bash
-cd ../client
-npm install
-```
-## Environment Variables:
-### Create a .env file in the server folder with your environment variables:
-``` plaintext
-MONGO_URI=<your-mongo-db-connection-string>
-JWT_SECRET=<your-jwt-secret-key>
-```
-## Run the application:
-
-### Start the backend server:
-```bash
-cd ../server
-npm start
-```
-
-### Start the Frontend server:
-```bash
-cd ../client
-npm start
-```
-## Open the application:
-### Go to http://localhost:3000 in your browser to start exploring connections!
 
 ## Functionality 📌
 
@@ -113,6 +70,51 @@ The Connecting World application includes a variety of features to enhance user 
    - **User Guide**: A simple help section to explain features and navigation for a better user experience.
 
 With these functionalities, *Connecting World* offers users a comprehensive platform to explore, connect, and manage their social relationships dynamically.
+
+
+
+## Getting Started
+
+### Clone the repository:
+```bash
+git clone https://github.com/your-username/connecting-world.git
+cd connecting-world
+```
+
+## Install dependencies:
+
+### Install backend dependencies:
+```bash
+cd server
+npm install
+```
+### Install frontend dependencies:
+```bash
+cd ../client
+npm install
+```
+## Environment Variables:
+### Create a .env file in the server folder with your environment variables:
+``` plaintext
+MONGO_URI=<your-mongo-db-connection-string>
+JWT_SECRET=<your-jwt-secret-key>
+```
+## Run the application:
+
+### Start the backend server:
+```bash
+cd ../server
+npm start
+```
+
+### Start the Frontend server:
+```bash
+cd ../client
+npm start
+```
+## Open the application:
+### Go to http://localhost:3000 in your browser to start exploring connections!
+
 
 
 
