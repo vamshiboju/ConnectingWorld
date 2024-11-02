@@ -25,7 +25,7 @@ Connecting World is a full-stack web application designed to map social connecti
 - **Database**: MongoDB
 - **Other Libraries**: D3.js (for graph visualization), JWT for authentication, bcrypt for password hashing
 
-## Functionality 📌
+## Functionality 
 
 The Connecting World application includes a variety of features to enhance user interaction and social network visualization:
 
