@@ -1,65 +1,83 @@
 # Connecting World
 
-## Explore Social Connections, Visualize Relationships, and Manage Your Profile
-# 🌐 Live @ https://connectingworld-fe.onrender.com/
+Connecting World is a full-stack web application designed to map social connections using graph data structures, where each node represents a user and each edge represents a relationship. This project serves as a platform to visualize and interact with social networks, allowing users to explore connections dynamically and intuitively.
 
+## Table of Contents
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Getting Started](#getting-started)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
-## The code and media present in this repository remains an intellectual property of Okereke Chinweotito and therefore cannot be copied, modified, redistributed, sublicenced or used as a template without due permission from the author
+## Features
+- **User Management**: Sign up, login, and manage user profiles.
+- **Social Graph Visualization**: Uses graph data structures to represent and visualize social connections.
+- **Relationship Mapping**: Create, view, and interact with connections between users.
+- **Real-Time Updates**: Social connections update dynamically with changes in relationships.
+- **Search and Filter**: Search for specific users and filter connections based on relationship types or levels.
 
-## Introduction
+## Technologies Used
+- **Frontend**: React, JavaScript, HTML, CSS
+- **Backend**: Node.js, Express.js
+- **Database**: MongoDB
+- **Other Libraries**: D3.js (for graph visualization), JWT for authentication, bcrypt for password hashing
 
-Connecting World is a full-stack web application designed to map social connections using graph data structures, where each node represents a user and each edge represents a relationship. The platform allows users to visualize and interact with their social networks in real time, making connections more dynamic and engaging.
+## Getting Started
 
-
-## Getting Started 💻
-
-Clone the Repo in your machine and install all the dependencies.
-
-### Prerequisites 🔍
-
-Make sure that you have NodeJS in your machine. If not, go to [nodejs.org](https://nodejs.org) and install npm. Then check for your version using the command line.
-
-```
-   node -v
-```
-
-### Installing 📕
-
-After cloning the repo, open the folder with you current code editor and install all the dependencies.
-
-```
-    npm install
-```
-
-After all the dependencies get installed, you need to create an .env file at the root of the project and paste the following:
-
-> THIS IS THE IMPORTANT BIT! You need to get your own api key from the movieDb website to run the application.
-
-- You need to register an account and get an API key.
-- After getting your API Key, paste the api key in the .env file.
-
-```
-REACT_APP_KEY = GET YOUR KEY AT THE MOVIEDB WEBSITE
-REACT_APP_API = https://api.themoviedb.org/3/
+### Clone the repository:
+```bash
+git clone https://github.com/your-username/connecting-world.git
+cd connecting-world
 ```
 
-With the .env file created with an API key. Just run the npm command to start the application.
+## Install dependencies:
 
+### Install backend dependencies:
+```bash
+cd server
+npm install
 ```
-    npm run start
+### Install frontend dependencies:
+```bash
+cd ../client
+npm install
+```
+## Environment Variables:
+### Create a .env file in the server folder with your environment variables:
+``` plaintext
+MONGO_URI=<your-mongo-db-connection-string>
+JWT_SECRET=<your-jwt-secret-key>
+```
+## Run the application:
+
+### Start the backend server:
+```bash
+cd ../server
+npm start
 ```
 
-Go to localhost:3000 to see the web application.
+### Start the Frontend server:
+```bash
+cd ../client
+npm start
+```
+## Open the application:
+### Go to http://localhost:3000 in your browser to start exploring connections!
 
-## Deployment 🌍
 
-MovieZone is deployed using [Render](https://render.com/).
 
-## Built With 🔨
 
-- [ReactJS](https://reactjs.org) - The web framework used
-- [Context API](https://reactjs.org) - responsible for global state management
-- [SWR](https://swr.vercel.app/) - responsible for data fetching with [Axios](https://github.com/axios/axios)
-- [Styled Components](https://styled-components.com/) - responsible for design and styling the web application
-- [Framer Motion](https://www.framer.com/api) - Used in the animations
+
+
+
+
+
+
+
+
+
+
+
+
 
